@@ -20,9 +20,11 @@ body{
 }
 #superheroes{
     display: flex;
-    width: 100vw;
-    gap: 15px;
+    justify-content: space-around;
     flex-wrap: wrap;
+    width: 75vw;
+    gap: 15px;
+    margin: 0 auto;
 }
 .heroe{
     box-shadow: 0px 0px 5px black;
@@ -46,10 +48,36 @@ body{
     position: absolute;
     top: 101%;
     width: 300px;
-    background: rgba(255, 225, 225, 0.75 );
+    height: 100px;
+    background: rgba(65, 67, 67, 0.75);
+    color: white;
     transition: 0.9s ease-in-out;
+    
 }
 .heroe:hover .estadisticas{
-    top:75%;
-    transition: 0.6s ease-in;
+    top:78%;
+    transition: 0.2s ease-in;
+}
+
+.estadisticas ul {
+    list-style-type: none;
+    margin: 0px;
+}
+.estadisticas .col1{
+    background-color: rgba(43, 40, 40, 0.50);
+}
+.estadisticas .col2{
+    background-color: rgba(43, 40, 40, 0.50);
+}
+.estadisticas span.etiqueta{
+    font-weight: bold       ;
+}
+.datosPrincipales ul{
+    list-style-type: none;
+}
+.datosPrincipales .span.etiqueta{
+    font-weight: bold;
+}
+.imagenes img{
+    width: 100%;
 }
