@@ -1,12 +1,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 *{
     box-sizing: border-box;
 }
 body{
     font-family: Spinnaker;
+}
+h1{
+    font-family: "Comic Neue";
+    font-weight: bold;
+    font-size: 5em;
+    margin: 0px;
+    color: rgba(255, 255, 255, 0.732);
+    text-shadow: 0px 0px 20px white;
+
+}
+header{
+    background-image: url(../imgs/marvel.jpeg);
+    background-size: cover;
+    padding-bottom: 40px;
 }
 .good{
     background: rgb(159, 250, 159);
@@ -24,7 +39,7 @@ body{
     flex-wrap: wrap;
     width: 75vw;
     gap: 15px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 .heroe{
     box-shadow: 0px 0px 5px black;
@@ -52,6 +67,7 @@ body{
     background: rgba(65, 67, 67, 0.75);
     color: white;
     transition: 0.9s ease-in-out;
+    padding: 10px 0px 10px 0px;
     
 }
 .heroe:hover .estadisticas{
